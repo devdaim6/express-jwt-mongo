@@ -1,4 +1,4 @@
-# express-jwt-mongo
+# express-jwt-mongodb
 
 This npm package provides a CLI tool to quickly scaffold a secure Express server with JWT authentication and MongoDB integration. It sets up a basic project structure with essential security features already implemented.
 
@@ -23,14 +23,14 @@ Before you begin, ensure you have met the following requirements:
 To use this package, you can run it directly using npx:
 
 ```
-npx express-jwt-mongo my-project-name
+npx express-jwt-mongodb my-project-name
 ```
 
 Or you can install it globally:
 
 ```
-npm install -g express-jwt-mongo
-express-jwt-mongo my-project-name
+npm install -g express-jwt-mongodb
+express-jwt-mongodb my-project-name
 ```
 
 ## Usage
