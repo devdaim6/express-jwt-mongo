@@ -1,5 +1,5 @@
 {
-  "name": "express-jwt-mongo",
+  "name": "express-jwt-mongodb",
   "version": "2.0.0",
   "description": "A CLI tool to scaffold a secure Express server with JWT authentication and MongoDB integration",
   "main": "bin/cli.js",
