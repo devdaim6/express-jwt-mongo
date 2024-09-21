@@ -1,0 +1,45 @@
+{
+  "name": "express-jwt-mongo",
+  "version": "2.0.0",
+  "description": "A CLI tool to scaffold a secure Express server with JWT authentication and MongoDB integration",
+  "main": "bin/cli.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.6.0",
+    "express": "^4.21.0",
+    "express-rate-limit": "^5.5.1",
+    "helmet": "^4.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.22"
+  },
+  "bin": {
+    "express-jwt-mongo": "./bin/cli.js"
+  },
+  "keywords": [
+    "express",
+    "jwt",
+    "mongodb",
+    "authentication",
+    "scaffold",
+    "cli",
+    "security"
+  ],
+  "author": "devdaim <daimdev6@gmail.com> (https://github.com/devdaim6)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devdaim6/express-jwt-mongo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/devdaim6/express-jwt-mongo/issues"
+  },
+  "homepage": "https://github.com/devdaim6/express-jwt-mongo#readme",
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
